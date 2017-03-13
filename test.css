@@ -1,0 +1,26 @@
+button{
+	position: relative;
+	top: 2em;
+	font-size: 1.2em;
+	font-family: 'OpenSans' sans-serif;
+	cursor: pointer;
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+	color: #fff;
+	padding: .3em .8em;
+	background-color: #222;
+	border: 0;
+	outline: 0;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-webkit-appearance: none;
+}
+button:hover,
+button:active,
+button:focus{
+	-webkit-transition: all .2s linear;
+	transition: all .2s linear;
+
+	background: #aaa !important;
+}

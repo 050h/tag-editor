@@ -15,21 +15,17 @@ html,body {
 	height: 100%;
 	text-align: center;
 	font-family: arial;
-	overflow-x:hidden;
 	font-size: 16px;
 }
 textarea {
 	width: 100%;
-	height: 29px;
-	padding: .3em .5em;
+	height: 4em;
+	padding: 0;
+	margin: 0;
+	resize: none;
+	overflow: auto;
 	border: 1px solid #ddd;
-	font-size: .9em;
-	box-sizing: border-box;
-	margin: 0 0 20px;
-}
-textarea[readonly] {
-	color: #aaa;
-	background: #f7f7f7;
+	font-size: 1.5em;
 }
 .tags{
 	position: relative;
@@ -44,7 +40,6 @@ textarea[readonly] {
 	height: 4em;
 	padding: 0;
 	margin: 0;
-	overflow: hidden;
 	border: 1px solid #eee;
 	border-radius: 2px;
 	cursor: text;
@@ -172,7 +167,6 @@ textarea[readonly] {
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header.ui-state-focus {
-	background: #efefef;
 	border: 1px solid #d70c19;
 	border-radius: 2px;
 }
